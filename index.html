@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071027">
+  <meta name="description" content="Orbit Relay is a quick, offline orbital reflex game for iPhone and iPad.">
+  <title>Orbit Relay — Keep the signal alive</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23071027'/%3E%3Ccircle cx='30' cy='32' r='20' fill='none' stroke='%2342e8ef' stroke-width='4'/%3E%3Ccircle cx='30' cy='32' r='8' fill='%23ff7838'/%3E%3Ccircle cx='50' cy='32' r='5' fill='%2342e8ef'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Orbit Relay home">
+      <span class="brand-mark" aria-hidden="true"><i></i></span>
+      <span>Orbit Relay</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#play">How to play</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">OFFLINE ORBITAL REFLEX GAME</p>
+        <h1 id="hero-title">Keep the signal alive.</h1>
+        <p class="lede">Shift between three orbital lanes, dodge incoming blockers, and collect relay shards before the signal reaches your spark.</p>
+        <div class="hero-actions">
+          <span class="store-note"><img src="orbit-relay-icon.png" alt="" width="38" height="38">Coming to the App Store</span>
+          <a href="#play">See how it plays <span aria-hidden="true">↓</span></a>
+        </div>
+        <ul class="quick-facts" aria-label="Game highlights">
+          <li><strong>30</strong><span>sectors</span></li>
+          <li><strong>Offline</strong><span>core play</span></li>
+          <li><strong>Optional</strong><span>rewarded ads</span></li>
+        </ul>
+      </div>
+
+      <div class="game-orbit" role="img" aria-label="Abstract preview of the Orbit Relay game field with three rings, a core, a spark, shards, and blockers">
+        <div class="ambient"></div>
+        <div class="ring ring-one"></div>
+        <div class="ring ring-two"></div>
+        <div class="ring ring-three"></div>
+        <div class="core"></div>
+        <div class="spark"></div>
+        <div class="shard shard-one"></div>
+        <div class="shard shard-two"></div>
+        <div class="blocker blocker-one"></div>
+        <div class="blocker blocker-two"></div>
+        <div class="hud-score"><small>SECTOR 07</small><strong>1,840</strong></div>
+        <div class="hud-time">24s</div>
+      </div>
+    </section>
+
+    <section class="play" id="play" aria-labelledby="play-title">
+      <div>
+        <p class="eyebrow">ONE TOUCH. THREE LANES.</p>
+        <h2 id="play-title">Read the orbit, then move.</h2>
+      </div>
+      <div class="steps">
+        <article><span>01</span><h3>Track the signal</h3><p>Objects circle toward your spark. A clear read is worth more than a rushed move.</p></article>
+        <article><span>02</span><h3>Shift lanes</h3><p>Move inward or outward to catch bright shards and leave blockers behind.</p></article>
+        <article><span>03</span><h3>Clear the sector</h3><p>Protect your signal until the timer ends, then unlock a faster, denser orbit.</p></article>
+      </div>
+    </section>
+
+    <section class="principles" aria-labelledby="principles-title">
+      <div class="principles-copy">
+        <p class="eyebrow">PLAY COMES FIRST</p>
+        <h2 id="principles-title">Ads stay at the edges of the game.</h2>
+        <p>Rewarded video is always your choice. Interstitial ads are limited to natural breaks between rounds. No banners, no ads over the playfield, and no reward is tied to tracking permission.</p>
+      </div>
+      <div class="signal-card" aria-label="Advertising policy summary">
+        <div><b>Rewarded video</b><span>Optional repair or shard boost</span></div>
+        <div><b>Interstitial</b><span>Frequency-capped between rounds</span></div>
+        <div><b>Everything else</b><span>Not used</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Orbit Relay</span>
+    <span class="footer-links"><a href="support.html">Support</a><a href="privacy.html">Privacy</a></span>
+  </footer>
+  <script src="site.js"></script>
+</body>
+</html>
